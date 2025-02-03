@@ -4,7 +4,7 @@ int main() {
     int a;
     scanf("%d",&a);
     if(a>!1){
-        print("False");
+        printf("False");
     }
     else{
         printf("True");
