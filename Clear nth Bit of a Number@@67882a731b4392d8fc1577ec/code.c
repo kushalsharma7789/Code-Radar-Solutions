@@ -6,5 +6,5 @@ int main() {
     int r=~(1<<b);
     result=r&a;
     printf("%d",result);
-    result 0;
+    return 0;
 }
