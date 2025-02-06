@@ -6,21 +6,22 @@ int main(){
     char ch;
     scanf("%c",&ch);
     if(isdigit(ch)){
-        printf("Digit");
+        print("Digit");
     }
     else if(isalpha(ch)){
         ch=tolower(ch);
-        if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
-            printf("Vowel");
-        }
-        else{
-            printf("Consonant");
-        }
     }
-        else{
-            printf("Special Character");
-        }
-        return 0;
+    if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+        printf("Vowel");
     }
+    else{
+        printf("Consonant");
+    }
+
+else{
+    printf("Speial Character");
+
+}
+return 0;
 
 }
