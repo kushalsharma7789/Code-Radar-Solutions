@@ -2,9 +2,9 @@
 int isPrime(int num){
     int count=0;
     for(int i=1;i<=num;i++){
-        if(num%i==0){
-            count++;
-        }
+      if(num%i==0){
+        count++;
+      }        
     }
     if(count==2){
         return 1;
@@ -13,13 +13,14 @@ int isPrime(int num){
         return 0;
     }
 }
+
 int main() {
     int t;
-    scanf("%d",&t);
-    while(t--){
+    scanf("%d", &t);
+    while(t--) {
         int num;
-        scanf("%d",&num);
-        printf("%d\n",isPrime(num));
+        scanf("%d", &num);
+        printf("%d\n", isPrime(num));
     }
     return 0;
 }
